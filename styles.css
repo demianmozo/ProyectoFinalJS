@@ -1,13 +1,9 @@
 body, html {
   height: 100%;
   text-align: center;
-  background-image: url(https://www.infosecuritymexico.com/content/dam/sitebuilder/rxmx/infosecurity-mx/2021/img/programa/baxk-finance.jpg/_jcr_content/renditions/original.image_file.1919.1079.file/baxk-finance.jpg)
-
+  background: linear-gradient(to bottom, cadetblue, white);
 }
 
-.container {
-  background: white
-}
 
 .container-form{
   width: 100%;
