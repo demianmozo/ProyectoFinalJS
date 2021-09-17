@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+  text-align: center;
+  background-image: url(https://www.infosecuritymexico.com/content/dam/sitebuilder/rxmx/infosecurity-mx/2021/img/programa/baxk-finance.jpg/_jcr_content/renditions/original.image_file.1919.1079.file/baxk-finance.jpg)
+
+}
+
+.container {
+  background: white
+}
+
+.container-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto',
+  sans-serif;
+}
+
+h1{
+  font-family: 'Koh Santepheap',
+  cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Roboto',
+  sans-serif;
+  background: white;
+}
+
+td, th{
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+  border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+  background: beige;
+  font-family: 'Roboto',
+  sans-serif;
+  border-width: 1px;
+  font-weight: bold;
+  font-size: inherit;
+}
