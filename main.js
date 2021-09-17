@@ -108,7 +108,7 @@ $(document).ready(function(){
     <td>${quantity} </td>
     <td>${'$' + cost}</td>
     <td>${'$'+ cost/quantity}</td>
-    <td>${'$' + cost*0.21}</td>
+    <td>${'$' + (cost/1.21)*0.21}</td>
     `
   }
 
